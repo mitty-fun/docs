@@ -1,6 +1,6 @@
 ---
 title: 函式
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 函式就像工廠裡的加工機器，你可以傳入一些原物料，經過處理後它會返回一個成品。  

@@ -1,6 +1,6 @@
 ---
 title: for 迴圈
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 `for 變數 in 串列` 是一種迴圈，它會將串列中的每個元素從頭到尾逐一取出，並暫時存放在變數中。
