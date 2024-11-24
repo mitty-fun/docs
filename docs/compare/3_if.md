@@ -1,9 +1,16 @@
 ---
-title: 2. 條件判斷
-sidebar_position: 2
+title: 3. 條件判斷
+sidebar_position: 3
 ---
 
 ## if 語法
+
+:::info 重點比較
+- Python、JavaScript 使用 `if` 表示
+- C、C++、JavaScript 使用 `{}` 表示範圍
+- Pyrhon 使用 `:` 並縮排表示範圍
+- 如果要執行的程式只有一行，可以省略 `{}` 大括號
+:::
 
 如果分數大於等於 60 分及格，以下是各種語言的實作
 
@@ -11,7 +18,9 @@ sidebar_position: 2
 
 ```python
 score = int(input())
+# highlight-start
 if score >= 60:
+# highlight-end
     print('及格')
 ```
 
@@ -19,9 +28,13 @@ if score >= 60:
 
 ```javascript
 let score = Number(prompt())
+// highlight-start
 if (score >= 60) {
+// highlight-end
     console.log('及格');
+// highlight-start
 }
+// highlight-end
 ```
 
 ### C 語法
@@ -32,9 +45,13 @@ if (score >= 60) {
 int main() {
     int score;
     scanf("%d", &score);
+    // highlight-start
     if (score >= 60) {
+    // highlight-end
         printf("及格\n");
+    // highlight-start
     }
+    // highlight-end
     return 0;
 }
 ```
@@ -48,9 +65,13 @@ using namespace std;
 int main() {
     int score;
     cin >> score;
+    // highlight-start
     if (score >= 60) {
+    // highlight-end
         cout << "及格\n";
+    // highlight-start
     }
+    // highlight-end
     return 0;
 }
 ```
@@ -63,9 +84,13 @@ int main() {
 
 ```python
 score = int(input('成績：'))
+# highlight-start
 if score >= 60:
+# highlight-end
     print('你及格了！')
+# highlight-start
 else:
+# highlight-end
     print('你不及格！')
 ```
 
@@ -73,11 +98,17 @@ else:
 
 ```javascript
 let score = prompt('成績：');
+// highlight-start
 if (score >= 60) {
+// highlight-end
     console.log('你及格了！');
+// highlight-start
 } else {
+// highlight-end
     console.log('你不及格！');
+// highlight-start
 }
+// highlight-end
 ```
 
 ### C 語法
@@ -89,11 +120,17 @@ int main() {
     int score;
     printf("成績：");
     scanf("%d", &score);
+    // highlight-start
     if (score >= 60) {
+        // highlight-end
         printf("你及格了！\n");
+        // highlight-start
     } else {
+        // highlight-end
         printf("你不及格！\n");
+        // highlight-start
     }
+    // highlight-end
     return 0;
 }
 ```
@@ -108,11 +145,17 @@ int main() {
     int score;
     cout << "成績：";
     cin >> score;
+    // highlight-start
     if (score >= 60) {
+        // highlight-end
         cout << "你及格了！\n";
+        // highlight-start
     } else {
+        // highlight-end
         cout << "你不及格！\n";
+        // highlight-start
     }
+    // highlight-end
     return 0;
 }
 ```

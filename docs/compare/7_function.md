@@ -1,6 +1,6 @@
 ---
-title: 6. 函式
-sidebar_position: 6
+title: 7. 函式
+sidebar_position: 7
 ---
 
 設計一個函式 `add` 可以傳入 2 個參數，並計算總和後回傳結果。  

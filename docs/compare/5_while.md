@@ -1,6 +1,6 @@
 ---
-title: 4. while 迴圈
-sidebar_position: 4
+title: 5. while 迴圈
+sidebar_position: 5
 ---
 
 :::info 重點比較

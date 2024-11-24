@@ -1,6 +1,6 @@
 ---
-title: 5. for 迴圈
-sidebar_position: 5
+title: 6. for 迴圈
+sidebar_position: 6
 ---
 
 :::info 重點比較
