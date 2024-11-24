@@ -1,4 +1,7 @@
 {
   "label": "JavaScript 基礎語法",
-  "position": 2
+  "position": 2,
+  "link": {
+    "type": "generated-index"
+  }
 }
